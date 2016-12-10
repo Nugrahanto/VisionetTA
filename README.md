@@ -8,10 +8,10 @@
 - NAMA SEKOLAH : SMK TELKOM MALANG
 
 ###SCREENSHOT
-![Screenshot1](https://s15.postimg.org/53mfe56ob/Whats_App_Image_2016_12_07_at_10_14_10_PM_4.jpg)
-![Screenshot2](https://s15.postimg.org/diqlobbmj/Whats_App_Image_2016_12_07_at_10_14_10_PM.jpg)
-![Screenshot1](https://s15.postimg.org/jmijzihgb/Whats_App_Image_2016_12_07_at_10_14_10_PM_3.jpg)
-![Screenshot2](https://s30.postimg.org/bxl4631b5/Whats_App_Image_2016_12_07_at_10_14_10_PM_1.jpg)
+![Screenshot1](https://s30.postimg.org/6btwvrssx/Screenshot_2016_12_10_19_56_32.jpg)
+![Screenshot2](https://s28.postimg.org/ds3qv2mwd/Screenshot_2016_12_10_19_56_35.jpg)
+![Screenshot1](https://s30.postimg.org/f55c6oqtd/Screenshot_2016_12_10_19_57_00.jpg)
+![Screenshot2](https://s30.postimg.org/6ffoxci9d/Screenshot_2016_12_10_19_57_03.jpg)
 
 ###Link Aplikasi
-Aplikasi dapat diunduh di link berikut : www.mediafire.com/file/uc5zkuhirmc1auu/app-debug.apk
+Aplikasi dapat diunduh di link berikut : http://www.mediafire.com/file/b1oe7b5xluxxdwx/CNN+NEWS.apk
