@@ -5,179 +5,75 @@ import com.google.gson.annotations.SerializedName;
 
 public class Contact {
 
-	@SerializedName("id")
+	@SerializedName("author")
 	@Expose
-	private String id;
-	@SerializedName("name")
+	private String author;
+
+	@SerializedName("title")
 	@Expose
-	private String name;
-	@SerializedName("email")
+	private String title;
+
+	@SerializedName("description")
 	@Expose
-	private String email;
-	@SerializedName("address")
+	private String description;
+
+	@SerializedName("url")
 	@Expose
-	private String address;
-	@SerializedName("gender")
+	private String url;
+
+	@SerializedName("urlToImage")
 	@Expose
-	private String gender;
-	@SerializedName("profile_pic")
+	private String urlToImage;
+
+	@SerializedName("publishedAt")
 	@Expose
-	private String profilePic;
-	@SerializedName("phone")
-	@Expose
-	private Phone phone;
+	private String publishedAt;
 
-	/**
-	 * @return The id
-	 */
-	public String getId() {
-		return id;
+	public String getAuthor() {
+		return author;
 	}
 
-	/**
-	 * @param id The id
-	 */
-	public void setId(String id) {
-		this.id = id;
+	public void setAuthor(String author) {
+		this.author = author;
 	}
 
-	/**
-	 * @return The name
-	 */
-	public String getName() {
-		return name;
+	public String getTitle() {
+		return title;
 	}
 
-	/**
-	 * @param name The name
-	 */
-	public void setName(String name) {
-		this.name = name;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
-	/**
-	 * @return The email
-	 */
-	public String getEmail() {
-		return email;
+	public String getDescription() {
+		return description;
 	}
 
-	/**
-	 * @param email The email
-	 */
-	public void setEmail(String email) {
-		this.email = email;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
-	/**
-	 * @return The address
-	 */
-	public String getAddress() {
-		return address;
+	public String getUrl() {
+		return url;
 	}
 
-	/**
-	 * @param address The address
-	 */
-	public void setAddress(String address) {
-		this.address = address;
+	public void setUrl(String url) {
+		this.url = url;
 	}
 
-	/**
-	 * @return The gender
-	 */
-	public String getGender() {
-		return gender;
+	public String getUrlToImage() {
+		return urlToImage;
 	}
 
-	/**
-	 * @param gender The gender
-	 */
-	public void setGender(String gender) {
-		this.gender = gender;
+	public void setUrlToImage(String urlToImage) {
+		this.urlToImage = urlToImage;
 	}
 
-	/**
-	 * @return The profilePic
-	 */
-	public String getProfilePic() {
-		return profilePic;
+	public String getPublishedAt() {
+		return publishedAt;
 	}
 
-	/**
-	 * @param profilePic The profile_pic
-	 */
-	public void setProfilePic(String profilePic) {
-		this.profilePic = profilePic;
-	}
-
-	/**
-	 * @return The phone
-	 */
-	public Phone getPhone() {
-		return phone;
-	}
-
-	/**
-	 * @param phone The phone
-	 */
-	public void setPhone(Phone phone) {
-		this.phone = phone;
-	}
-
-	public class Phone {
-
-		@SerializedName("mobile")
-		@Expose
-		private String mobile;
-		@SerializedName("home")
-		@Expose
-		private String home;
-		@SerializedName("office")
-		@Expose
-		private String office;
-
-		/**
-		 * @return The mobile
-		 */
-		public String getMobile() {
-			return mobile;
-		}
-
-		/**
-		 * @param mobile The mobile
-		 */
-		public void setMobile(String mobile) {
-			this.mobile = mobile;
-		}
-
-		/**
-		 * @return The home
-		 */
-		public String getHome() {
-			return home;
-		}
-
-		/**
-		 * @param home The home
-		 */
-		public void setHome(String home) {
-			this.home = home;
-		}
-
-		/**
-		 * @return The office
-		 */
-		public String getOffice() {
-			return office;
-		}
-
-		/**
-		 * @param office The office
-		 */
-		public void setOffice(String office) {
-			this.office = office;
-		}
-
+	public void setPublishedAt(String publishedAt) {
+		this.publishedAt = publishedAt;
 	}
 }

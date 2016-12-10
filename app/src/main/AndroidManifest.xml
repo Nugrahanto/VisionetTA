@@ -8,13 +8,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="VISIONET"
+        android:icon="@mipmap/logo"
+        android:label="CNN NEWS"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".ui.activity.MainActivity"
-            android:label="DAFTAR SISWA XI RPL 1"
+            android:label="CNN NEWS"
             android:theme="@style/AppTheme.NoActionBar">
 
             <intent-filter>

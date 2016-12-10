@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 		listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-				Snackbar.make(parentView, contactList.get(position).getName() + " = " + contactList.get(position).getPhone().getHome(), Snackbar.LENGTH_LONG).show();
+				Snackbar.make(parentView, contactList.get(position).getTitle(), Snackbar.LENGTH_LONG).show();
 			}
 		});
 
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
 								/**
 								 * Got Successfully
 								 */
-								contactList = response.body().getContacts();
+								contactList = response.body().getContact();
 
 								/**
 								 * Binding that List to Adapter

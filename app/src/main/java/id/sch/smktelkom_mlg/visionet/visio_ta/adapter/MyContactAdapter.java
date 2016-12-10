@@ -48,9 +48,9 @@ public class MyContactAdapter extends ArrayAdapter<Contact> {
 
 		Contact item = getItem(position);
 
-		vh.textViewName.setText(item.getName());
-		vh.textViewEmail.setText(item.getEmail());
-		Picasso.with(context).load(item.getProfilePic()).placeholder(R.mipmap.ic_launcher).error(R.mipmap.ic_launcher).into(vh.imageView);
+		vh.textViewName.setText(item.getTitle());
+		vh.textViewEmail.setText(item.getPublishedAt());
+		Picasso.with(context).load(item.getUrlToImage()).placeholder(R.mipmap.ic_launcher).error(R.mipmap.ic_launcher).into(vh.imageView);
 
 		return vh.rootView;
 	}

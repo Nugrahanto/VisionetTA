@@ -10,21 +10,51 @@ import java.util.ArrayList;
  */
 
 public class ContactList {
-	@SerializedName("contacts")
+	@SerializedName("status")
 	@Expose
-	private ArrayList<Contact> contacts = new ArrayList<>();
+	private String status;
 
-	/**
-	 * @return The contacts
-	 */
-	public ArrayList<Contact> getContacts() {
-		return contacts;
+	@SerializedName("source")
+	@Expose
+	private String source;
+
+	@SerializedName("sortBy")
+	@Expose
+	private String sortBy;
+
+	@SerializedName("articles")
+	@Expose
+	private ArrayList<Contact> contact = new ArrayList<>();
+
+	public ArrayList<Contact> getContact() {
+		return contact;
 	}
 
-	/**
-	 * @param contacts The contacts
-	 */
-	public void setContacts(ArrayList<Contact> contacts) {
-		this.contacts = contacts;
+	public void setContact(ArrayList<Contact> Contact) {
+		this.contact = Contact;
+	}
+
+	public String getSortBy() {
+		return sortBy;
+	}
+
+	public void setSortBy(String sortBy) {
+		this.sortBy = sortBy;
+	}
+
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
 	}
 }
